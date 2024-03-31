@@ -36,4 +36,16 @@ dataTransformation:
 6. Update the components                          ---> train_test_split, encoder technique
 7. Update the pipeline                            --->
 8. Update the main.py
+9. Update the app.py
+
+ModelTraining:
+
+1. Update config.yaml                             --->Train.csv, Test.csv, modelname=joblib(after training)
+2. Update schema.yaml                             --->
+3. Update params.yaml                             ---> 
+4. Update the entity                              ---> alpha and L1 (PARAMS), TRAIN, TEST
+5. Update the configuration manager in src config ---> 
+6. Update the components                          ---> 
+7. Update the pipeline                            --->
+8. Update the main.py
 9. Update the app.py 
