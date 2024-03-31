@@ -16,12 +16,24 @@ constants --> has path of config, params, schema
 data ingestion: we take data and create folder artifacts, download dataset into artifacts and unzip it
 data validation: we take the dataset from artifacts , EDA, and create validation folder in arifacts and return true or false as status
 
-1. Update config.yaml                             --->TAake dataset from artifaces , status which say validation is true or false
+1. Update config.yaml                             --->dataset from artifaces path , status which say validation is true or false
 2. Update schema.yaml                             --->column names, data type, target variable
 3. Update params.yaml                             ---> 
 4. Update the entity                              --->
 5. Update the configuration manager in src config ---> 
 6. Update the components                          --->check if the column name is same or compare the column name with schema and return True
+7. Update the pipeline                            --->
+8. Update the main.py
+9. Update the app.py 
+
+dataTransformation:
+
+1. Update config.yaml                             --->root_dir, data_path  path
+2. Update schema.yaml                             --->
+3. Update params.yaml                             ---> 
+4. Update the entity                              ---> root_dir, data_path instaiallized inside class
+5. Update the configuration manager in src config ---> read the config schema params, get the data():
+6. Update the components                          ---> train_test_split, encoder technique
 7. Update the pipeline                            --->
 8. Update the main.py
 9. Update the app.py 
