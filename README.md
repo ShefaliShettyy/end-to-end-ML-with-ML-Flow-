@@ -49,3 +49,6 @@ ModelTraining:
 7. Update the pipeline                            --->
 8. Update the main.py
 9. Update the app.py 
+
+https://github.com/ShefaliShettyy/end-to-end-ML-with-ML-Flow-.git
+https://dagshub.com/ShefaliShettyy/end-to-end-ML-with-ML-Flow-.mlflow
